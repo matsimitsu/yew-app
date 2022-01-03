@@ -15,3 +15,8 @@ install_rustup_prod:
 
 build_prod:
 	trunk build --release
+
+prod:
+	make install_tailwind_prod
+	make build_prod
+	make install_build_prod
